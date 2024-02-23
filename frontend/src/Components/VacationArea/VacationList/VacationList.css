@@ -1,0 +1,20 @@
+.VacationList {
+	height: 100%;
+  
+    width: 100%;
+    
+}
+
+.VacationList>button{
+    margin: 10px;
+    padding: 10px;
+}
+
+.VacationList > .list{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.list > .VacationCard{
+    margin: 10px;
+}

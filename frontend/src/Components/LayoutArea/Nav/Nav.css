@@ -1,0 +1,38 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Nav a{
+   color: inherit;
+
+}
+.Nav a,.Nav a:hover,.Nav a:focus,.Nav a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav>img{
+    width: 100px;
+    height: 10vh;
+}
+
+.Nav>ul{
+    list-style-type: none;
+
+}
+.Nav li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.Nav li:hover{
+    background-color:#051937 ;
+    color :white;
+    opacity: 0.8;
+    
+}
+

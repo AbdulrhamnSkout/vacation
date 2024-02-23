@@ -1,0 +1,19 @@
+.Layout {
+	height: 100%;
+}
+
+.Layout > header,.Layout > main,.Layout > footer{
+    width: 100%;
+}
+
+.Layout > header{
+    height: 10vh;
+    
+}
+
+
+.Layout > main{
+    height: 90vh;
+    
+}
+

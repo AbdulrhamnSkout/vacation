@@ -1,0 +1,24 @@
+.EditVacation form {
+	display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    margin-left:20px ;
+    margin-top:10px ;
+}
+
+.EditVacation textarea{
+    width: 60%;
+    height: 30vh;
+}
+.EditVacation input{
+    width: 30%;
+    height: 5vh;
+    outline: none;
+}
+.EditVacation button{
+    width: 100px;
+}
+
+.EditVacation span{
+    color:red;
+}
